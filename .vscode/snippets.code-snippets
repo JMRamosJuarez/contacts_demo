@@ -1,0 +1,37 @@
+{
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:Component}: React.FC = () => {",
+      "  return <${2}></${2}>;",
+      "};",
+      "",
+      "export default ${1:Component};",
+    ],
+    "description": "Generate a React functional component",
+  },
+  "Custom Hook with useCallback": {
+    "prefix": "ract",
+    "body": [
+      "export const ${1} = () => {",
+      "  const dispatch = useAppDispatch();",
+      "  return useCallback(() => {",
+      "  }, [dispatch]);",
+      "};",
+    ],
+    "description": "Generate a custom hook using useCallback and useAppDispatch",
+  },
+  "React Native Stylesheet": {
+    "prefix": "rns",
+    "body": [
+      "import { StyleSheet } from 'react-native';",
+      "",
+      "export const styles = StyleSheet.create({",
+      "  // Add your styles here",
+      "});",
+    ],
+    "description": "Import StyleSheet from react-native and create styles object",
+  },
+}
