@@ -8,7 +8,10 @@ export const CreateContactFormSchema = Yup.object({
   email: Yup.string()
     .email(AppErrorType.INVALID_EMAIL)
     .required(AppErrorType.EMAIL_IS_REQUIRED),
-  phone: Yup.string().optional().min(10, AppErrorType.INVALID_PHONE),
+  phone: Yup.string()
+    .transform(v => (v.length === 0 ? undefined : v))
+    .min(10, AppErrorType.INVALID_PHONE)
+    .optional(),
   department: Yup.string()
     .required(AppErrorType.DEPARTMENT_IS_REQUIRED)
     .oneOf(Object.values(eDepartment), AppErrorType.INVALID_DEPARTMENT),
