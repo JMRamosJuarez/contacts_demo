@@ -1,0 +1,394 @@
+[
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c001",
+    "name": "Mateo Hernández",
+    "email": "mateo.hernandez@example.com",
+    "phone": "2914177763",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c002",
+    "name": "Valeria Flores",
+    "email": "valeria.flores@example.com",
+    "phone": "0115244939",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c004",
+    "name": "Lucía Gómez",
+    "email": "lucia.gomez@example.com",
+    "phone": "3416721106",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c005",
+    "name": "Santiago Peña",
+    "email": "santiago.pena@example.com",
+    "phone": "9458073021",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c006",
+    "name": "Elena Morales",
+    "email": "elena.morales@example.com",
+    "phone": "8570377488",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c008",
+    "name": "Camila Ortiz",
+    "email": "camila.ortiz@example.com",
+    "phone": "2379361739",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c009",
+    "name": "Alejandro Silva",
+    "email": "alejandro.silva@example.com",
+    "phone": "0383171343",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c010",
+    "name": "Ximena Luna",
+    "email": "ximena.luna@example.com",
+    "phone": "9060410403",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c012",
+    "name": "Fernanda Ríos",
+    "email": "fernanda.rios@example.com",
+    "phone": "1369528629",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c013",
+    "name": "Hugo Méndez",
+    "email": "hugo.mendez@example.com",
+    "phone": "1517409241",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c014",
+    "name": "Paola Castro",
+    "email": "paola.castro@example.com",
+    "phone": "1367011152",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c016",
+    "name": "Mónica Suárez",
+    "email": "monica.suarez@example.com",
+    "phone": "5322987545",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c017",
+    "name": "Oscar Pérez",
+    "email": "oscar.perez@example.com",
+    "phone": "7037149098",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c018",
+    "name": "Natalia Blanco",
+    "email": "natalia.blanco@example.com",
+    "phone": "1940176882",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c020",
+    "name": "Daniela Soto",
+    "email": "daniela.soto@example.com",
+    "phone": "0573177793",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c021",
+    "name": "Miguel Ángel",
+    "email": "miguel.angel@example.com",
+    "phone": "2525547464",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c022",
+    "name": "Isabel Lara",
+    "email": "isabel.lara@example.com",
+    "phone": "2987309990",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c024",
+    "name": "Andrea Cruz",
+    "email": "andrea.cruz@example.com",
+    "phone": "8570394862",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c025",
+    "name": "Raúl Jiménez",
+    "email": "raul.jimenez@example.com",
+    "phone": "6516666336",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c026",
+    "name": "Adriana Mejía",
+    "email": "adriana.mejia@example.com",
+    "phone": "6835261895",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c028",
+    "name": "Karla Ibarra",
+    "email": "karla.ibarra@example.com",
+    "phone": "9676579669",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c029",
+    "name": "Manuel Pardo",
+    "email": "manuel.pardo@example.com",
+    "phone": "8032768565",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c030",
+    "name": "Brenda Esparza",
+    "email": "brenda.esparza@example.com",
+    "phone": "7092823625",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c032",
+    "name": "Gloria Trevi",
+    "email": "gloria.trevi@example.com",
+    "phone": "0383188554",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c033",
+    "name": "Arturo Elías",
+    "email": "arturo.elias@example.com",
+    "phone": "4610731456",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c034",
+    "name": "Irma Serrano",
+    "email": "irma.serrano@example.com",
+    "phone": "4693155700",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c036",
+    "name": "Teresa Mendoza",
+    "email": "teresa.mendoza@example.com",
+    "phone": "2115664197",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c037",
+    "name": "Pedro Infante",
+    "email": "pedro.infante@example.com",
+    "phone": "0383491410",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c038",
+    "name": "Úrsula Corberó",
+    "email": "ursula.corbero@example.com",
+    "phone": "9679163625",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c040",
+    "name": "Yolanda Ramírez",
+    "email": "yolanda.ramirez@example.com",
+    "phone": "1369528629",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c041",
+    "name": "Zoe Hernández",
+    "email": "zoe.hernandez@example.com",
+    "phone": "6011571409",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c042",
+    "name": "Bruno Flores",
+    "email": "bruno.flores@example.com",
+    "phone": "1517409241",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c044",
+    "name": "Danna Gómez",
+    "email": "danna.gomez@example.com",
+    "phone": "3093229606",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c045",
+    "name": "Enrique Peña",
+    "email": "enrique.pena@example.com",
+    "phone": "5322987545",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c046",
+    "name": "Frida Morales",
+    "email": "frida.morales@example.com",
+    "phone": "7037149098",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c048",
+    "name": "Salma Ortiz",
+    "email": "salma.ortiz@example.com",
+    "phone": "1314275005",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c049",
+    "name": "Iván Silva",
+    "email": "ivan.silva@example.com",
+    "phone": "0573177793",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c050",
+    "name": "Sofía Luna",
+    "email": "sofia.luna@example.com",
+    "phone": "2525547464",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c052",
+    "name": "Valeria Ríos",
+    "email": "valeria.rios@example.com",
+    "phone": "3635703901",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c053",
+    "name": "Diego Méndez",
+    "email": "diego.mendez@example.com",
+    "phone": "8570394862",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c054",
+    "name": "Lucía Castro",
+    "email": "lucia.castro@example.com",
+    "phone": "6516666336",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c056",
+    "name": "Elena Suárez",
+    "email": "elena.suarez@example.com",
+    "phone": "4220790858",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c057",
+    "name": "Javier Pérez",
+    "email": "javier.perez@example.com",
+    "phone": "9676579669",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c058",
+    "name": "Camila Blanco",
+    "email": "camila.blanco@example.com",
+    "phone": "8032768565",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c060",
+    "name": "Ximena Soto",
+    "email": "ximena.soto@example.com",
+    "phone": "2581699042",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c061",
+    "name": "Ricardo Ángel",
+    "email": "ricardo.angel@example.com",
+    "phone": "0383188554",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c062",
+    "name": "Fernanda Lara",
+    "email": "fernanda.lara@example.com",
+    "phone": "4610731456",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c064",
+    "name": "Paola Cruz",
+    "email": "paola.cruz@example.com",
+    "phone": "0516769002",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c065",
+    "name": "Luis Jiménez",
+    "email": "luis.jimenez@example.com",
+    "phone": "2115664197",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c066",
+    "name": "Mónica Mejía",
+    "email": "monica.mejia@example.com",
+    "phone": "0383491410",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c068",
+    "name": "Natalia Ibarra",
+    "email": "natalia.ibarra@example.com",
+    "phone": "6303253507",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c069",
+    "name": "Roberto Pardo",
+    "email": "roberto.pardo@example.com",
+    "phone": "1369528629",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c070",
+    "name": "Daniela Esparza",
+    "email": "daniela.esparza@example.com",
+    "phone": "6011571409",
+    "department": "Marketing"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c072",
+    "name": "Isabel Trevi",
+    "email": "isabel.trevi@example.com",
+    "phone": "1367011152",
+    "department": "Ventas"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c073",
+    "name": "Gabriel Elías",
+    "email": "gabriel.elias@example.com",
+    "phone": "3093229606",
+    "department": "Desarrollo"
+  },
+  {
+    "id": "4e77e20a-6617-494b-9721-667950c074",
+    "name": "Andrea Serrano",
+    "email": "andrea.serrano@example.com",
+    "phone": "5322987545",
+    "department": "Marketing"
+  }
+]

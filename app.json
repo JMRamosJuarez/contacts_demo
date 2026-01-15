@@ -2,6 +2,7 @@
   "expo": {
     "name": "Contacts",
     "slug": "Contacts",
+    "scheme": "Contacts",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -30,7 +31,13 @@
     },
     "plugins": [
       "expo-sqlite",
-      ["react-native-localize", { "locales": ["en", "es"] }]
+      [
+        "react-native-localize",
+        {
+          "locales": ["en", "es"]
+        }
+      ],
+      "expo-router"
     ]
   }
 }

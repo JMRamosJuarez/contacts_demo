@@ -4,7 +4,12 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@localization/*": ["src/localization/*"]
+      "@app/*": ["app/*"],
+      "@components/*": ["components/*"],
+      "@core/*": ["src/core/*"],
+      "@localization/*": ["src/localization/*"],
+      "@database/*": ["src/database/*"],
+      "@contacts/*": ["src/contacts/*"]
     }
   }
 }
