@@ -15,9 +15,12 @@ export const useCreateContactAction = () => {
   return useCallback(
     async (contact: tContact) => {
       try {
-        contacts$.container[contact.id].set({ type: 'loading' });
-        const create = await dbService.create(contact);
-        contacts$.container[contact.id].set({ type: 'success', data: create });
+        contacts$.container[contact.id]?.set({ type: 'loading' });
+        const created = await dbService.create(contact);
+        contacts$.container[contact.id]?.set({
+          type: 'success',
+          data: created,
+        });
         const department = contacts$.department.get();
         const { items, pages, page, data } = await dbService.read({
           department,
@@ -41,11 +44,11 @@ export const useCreateContactAction = () => {
             type: AppErrorType.EMAIL_MUST_BE_UNIQUE,
             message: '(useCreateContactAction) Email must be unique',
           };
-          contacts$.container[contact.id].set({
+          contacts$.container[contact.id]?.set({
             type: 'error',
             error: outputError,
           });
-          appModals$.container[contact.id].set({
+          appModals$.container[contact.id]?.set({
             visible: true,
             content: outputError,
           });
@@ -58,7 +61,7 @@ export const useCreateContactAction = () => {
                 type: AppErrorType.UNKNOWN_ERROR,
                 message: JSON.stringify(error, null, '\t'),
               };
-        contacts$.container[contact.id].set({
+        contacts$.container[contact.id]?.set({
           type: 'error',
           error: outputError,
         });
@@ -154,9 +157,9 @@ export const useGetContactAction = () => {
   return useCallback(
     async (id: string) => {
       try {
-        contacts$.container[id].set({ type: 'loading' });
+        contacts$.container[id]?.set({ type: 'loading' });
         const data = await dbService.findBy(id);
-        contacts$.container[id].set({ type: 'success', data });
+        contacts$.container[id]?.set({ type: 'success', data });
       } catch (error) {
         const outputError: tAppError =
           error instanceof AppError
@@ -165,7 +168,7 @@ export const useGetContactAction = () => {
                 type: AppErrorType.UNKNOWN_ERROR,
                 message: JSON.stringify(error, null, '\t'),
               };
-        contacts$.container[id].set({ type: 'error', error: outputError });
+        contacts$.container[id]?.set({ type: 'error', error: outputError });
       }
     },
     [dbService],
@@ -177,9 +180,9 @@ export const useUpateContactAction = () => {
   return useCallback(
     async (contact: tContact) => {
       try {
-        contacts$.container[contact.id].set({ type: 'loading' });
+        contacts$.container[contact.id]?.set({ type: 'loading' });
         const data = await dbService.update(contact);
-        contacts$.container[contact.id].set({ type: 'success', data });
+        contacts$.container[contact.id]?.set({ type: 'success', data });
       } catch (error) {
         const outputError: tAppError =
           error instanceof AppError
@@ -188,7 +191,7 @@ export const useUpateContactAction = () => {
                 type: AppErrorType.UNKNOWN_ERROR,
                 message: JSON.stringify(error, null, '\t'),
               };
-        contacts$.container[contact.id].set({
+        contacts$.container[contact.id]?.set({
           type: 'error',
           error: outputError,
         });
@@ -203,7 +206,7 @@ export const useDeleteContactAction = () => {
   return useCallback(
     async (id: string) => {
       try {
-        contacts$.container[id].set({ type: 'loading' });
+        contacts$.container[id]?.set({ type: 'loading' });
         await dbService.deleteBy(id);
         const department = contacts$.department.get();
         const { data } = await dbService.read({
@@ -213,7 +216,7 @@ export const useDeleteContactAction = () => {
         contacts$.state.set(
           data.length > 0 ? { type: 'success', data } : { type: 'empty' },
         );
-        contacts$.container[id].set({ type: 'waiting' });
+        contacts$.container[id]?.set({ type: 'waiting' });
       } catch (error) {
         const outputError: tAppError =
           error instanceof AppError
@@ -222,7 +225,7 @@ export const useDeleteContactAction = () => {
                 type: AppErrorType.UNKNOWN_ERROR,
                 message: JSON.stringify(error, null, '\t'),
               };
-        contacts$.container[id].set({ type: 'error', error: outputError });
+        contacts$.container[id]?.set({ type: 'error', error: outputError });
       }
     },
     [dbService],

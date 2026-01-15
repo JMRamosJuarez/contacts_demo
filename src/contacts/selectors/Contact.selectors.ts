@@ -2,7 +2,7 @@ import { useSelector } from '@legendapp/state/react';
 
 import { contacts$ } from '@contacts/Contacts.observables';
 import { tContact } from '@contacts/Contacts.types';
-import { AppError, AppErrorType } from '@core/App.error';
+import { AppErrorType } from '@core/App.error';
 
 export const useContactState = (id: string) =>
   useSelector(() => {
@@ -28,10 +28,6 @@ export const useContactById = (id: string) =>
     if (item?.type === 'success') {
       return item.data;
     }
-    throw new AppError(
-      AppErrorType.UNKNOWN_ERROR,
-      '(useContact) Invalid state access',
-    );
   });
 
 export const useContactUpdates = (contact: tContact) =>

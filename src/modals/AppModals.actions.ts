@@ -5,6 +5,6 @@ import { tAppModalVisibility } from 'src/modals/AppModals.types';
 
 export const useDisplayAppModalAction = () => {
   return useCallback(async (request: tAppModalVisibility) => {
-    appModals$.container[request.key].set(request.data);
+    appModals$.container[request.key]?.set(request.data);
   }, []);
 };
